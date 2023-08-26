@@ -1,0 +1,12 @@
+pandas
+numpy
+PyPDF2
+langchain
+tiktoken
+python-dotenv
+pinecone-client
+torch
+streamlit
+openai
+flask
+textract

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Document BOT</title>
+  </head>
+  <body>
+    <form action="/process" method="POST">
+      <input type="text" name="user_input" placeholder="User input">
+      <input type="submit" value="Submit">
+    </form>
+    {% if user_input %}
+      <p id = tags1>{{ response }}</p>
+    {% endif %}
+  </body>
+</html>
